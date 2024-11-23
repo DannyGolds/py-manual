@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мануал по Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        pre {
+            background: #eaeaea;
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow: auto;
+            border-radius: 5px;
+        }
+        code {
+            background: #eaeaea;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Мануал по работе с базой Python</h1>
+
+    <h2>Введение в Python</h2>
+    <p>Python — это высокоуровневый язык программирования, который легко учить и читать. Он используется для разработки веб-приложений, анализа данных, машинного обучения, автоматизации процессов и многих других задач.</p>
+
+    <h2>1. Основы синтаксиса</h2>
+    <h3>1.1 Переменные</h3>
+    <pre><code>age = 25               # Целое число
+name = "Alice"        # Строка
+is_student = True     # Логическое значение
+
+print(age, name, is_student)
+    </code></pre>
+    
+    <h2>2. Типы данных</h2>
+    <h3>2.1 Списки, кортежи и словари</h3>
+    <p>Списки, кортежи и словари — это структуры данных, которые позволяют хранить коллекции значений.</p>
+    <pre><code># Списки
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")  # Добавляем элемент в список
+print(fruits)
+
+# Кортежи
+colors = ("red", "green", "blue")
+print(colors[1])  # Доступ к элементу по индексу
+
+# Словари
+person = {
+    "name": "Bob",
+    "age": 30,
+    "city": "New York"
+}
+print(person["name"])  # Доступ к значению по ключу
+    </code></pre>
+    
+    <h2>3. Операции с переменными и встроенные функции</h2>
+    <pre><code># Примеры использования встроенных функций
+print(len(fruits))         # Количество фруктов в списке
+print(type(name))          # Тип переменной name
+print(str(age))            # Преобразуем число в строку
+    </code></pre>
+
+    <h2>4. Условия и циклы</h2>
+    <h3>4.1 Условные операторы</h3>
+    <pre><code>if age < 18:
+    print("You are a minor.")
+else:
+    print("You are an adult.")
+    </code></pre>
+
+    <h3>4.2 Циклы</h3>
+    <pre><code># Цикл for
+for fruit in fruits:
+    print(fruit)
+
+# Цикл while
+count = 0
+while count < 3:
+    print("This is iteration", count)
+    count += 1
+    </code></pre>
+
+    <h2>5. Основные рекомендации по работе с окружением</h2>
+    <p>Python можно установить на компьютере с помощью дистрибутивов, таких как Anaconda или с помощью установки с сайта Python.</p>
+
+    <h2>Заключение</h2>
+    <p>Теперь, когда вы имеете представление о базах Python, вы можете продолжить изучение этого языка, выполняя более сложные задачи и проекты. Удачи в программировании!</p>
+    
+    <footer>
+        <p>&copy; 2023 Мануал по Python. Все права защищены.</p>
+    </footer>
+</div>
+
+</body>
+</html>
